@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "assert4hs-tasty:lib"
+
+    - path: "./test"
+      component: "assert4hs-tasty:test:assert4hs-tasty-test"
