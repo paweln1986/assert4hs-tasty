@@ -42,9 +42,9 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
 extra-deps:
-  - git: https://github.com/paweln1986/assert4hs.git
-    commit: 93dcf536c58b87fe555c16080b8ef228854ace6e
   - tasty-1.4.1
+  - assert4hs-0.0.0.1
+  - pretty-diff-0.4.0.3
 # Override default flag values for local packages and extra-deps
 # flags: {}
 

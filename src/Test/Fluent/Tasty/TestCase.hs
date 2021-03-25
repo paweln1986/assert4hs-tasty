@@ -43,5 +43,6 @@ prependLocation assertionErrors = intercalate "\n\n" $ fmap toLine assertionErro
       Nothing -> s
       Just loc -> "(" <> srcLocFile loc ++ ":" ++ show (srcLocStartLine loc) <> "): \n" <> s
 
-fluentTestCase :: TestName -> IO () -> TestTree
+-- | transform assert4hs assertion into tasty TestTree
+fluentTestCase :: TestName ->  IO () ->   TestTree
 fluentTestCase name = singleTest name . FluentTestCase . fmap (const "")
