@@ -1,5 +1,5 @@
 name:                assert4hs-tasty
-version:             0.0.0.1
+version:             0.1.0
 github:              "paweln1986/assert4hs-tasty"
 license:             MIT
 author:              "Pawel Nosal"
@@ -22,7 +22,7 @@ description:         Please see the README on GitHub at <https://github.com/pawe
 dependencies:
 - base >= 4.7 && < 5
 - tasty
-- assert4hs
+- assert4hs-core
 
 ghc-options:
   - -haddock
